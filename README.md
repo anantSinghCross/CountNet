@@ -27,7 +27,7 @@ A demo video is provided on the [accompanying website](https://www.audiolabs-erl
 
 ## Usage
 
-This repository provides the [keras](https://keras.io/) model to be used from Python to infer count estimates. The preprocessing dependes on librosa and scikit-learn. Not that the provided model is trained on 16 kHz samples of 5 seconds duration. 
+This repository provides the [keras](https://keras.io/) model to be used from Python to infer count estimates. The preprocessing dependes on librosa and scikit-learn. Note that the provided model is trained on 16 kHz samples of 5 seconds duration. 
 
 ### Docker
 
