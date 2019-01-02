@@ -57,4 +57,4 @@ if __name__ == '__main__':
 
     # predict output
     ys = model.predict(Xs, verbose=0)
-    print("Speaker Count Estimate: ", np.argmax(ys, axis=1)[0])
+    print("Speaker Count Estimate: ", np.argmax(ys, axis=1)[0]+1)
